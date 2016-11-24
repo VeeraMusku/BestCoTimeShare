@@ -1,0 +1,133 @@
+C:\inetpub\wwwroot\Bestco\Bestco\bin\ApplicationInsights.config
+C:\inetpub\wwwroot\Bestco\Bestco\bin\roslyn\csc.exe
+C:\inetpub\wwwroot\Bestco\Bestco\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\inetpub\wwwroot\Bestco\Bestco\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\inetpub\wwwroot\Bestco\Bestco\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\inetpub\wwwroot\Bestco\Bestco\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\inetpub\wwwroot\Bestco\Bestco\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\inetpub\wwwroot\Bestco\Bestco\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\inetpub\wwwroot\Bestco\Bestco\bin\roslyn\System.Collections.Immutable.dll
+C:\inetpub\wwwroot\Bestco\Bestco\bin\roslyn\System.Reflection.Metadata.dll
+C:\inetpub\wwwroot\Bestco\Bestco\bin\roslyn\vbc.exe
+C:\inetpub\wwwroot\Bestco\Bestco\bin\roslyn\VBCSCompiler.exe
+C:\inetpub\wwwroot\Bestco\Bestco\bin\roslyn\VBCSCompiler.exe.config
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Bestco.dll.config
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Bestco.dll
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Bestco.pdb
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.AI.DependencyCollector.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.AI.Web.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.AI.WindowsServer.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.ApplicationInsights.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\System.Web.Helpers.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\System.Web.Mvc.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\System.Web.Optimization.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\System.Web.Razor.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\System.Web.WebPages.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\System.Web.WebPages.Deployment.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\System.Web.WebPages.Razor.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Antlr3.Runtime.pdb
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Newtonsoft.Json.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\EntityFramework.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\EntityFramework.SqlServer.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.AspNet.Identity.Core.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.Owin.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.Owin.Security.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.Owin.Security.Facebook.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.Owin.Security.Cookies.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.Owin.Security.OAuth.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.Owin.Security.Google.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.Owin.Security.Twitter.xml
+C:\inetpub\wwwroot\Bestco\Bestco\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\inetpub\wwwroot\Bestco\Bestco\obj\Debug\Bestco.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Bestco\Bestco\obj\Debug\Bestco.dll
+C:\inetpub\wwwroot\Bestco\Bestco\obj\Debug\Bestco.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\ApplicationInsights.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\roslyn\csc.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\roslyn\vbc.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Bestco.dll.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Bestco.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Bestco.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.AI.Web.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.ApplicationInsights.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\System.Web.Helpers.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\System.Web.Mvc.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\System.Web.Optimization.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\System.Web.Razor.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\System.Web.WebPages.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Antlr3.Runtime.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Newtonsoft.Json.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.Owin.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.Owin.Security.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\obj\Debug\Bestco.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\obj\Debug\Bestco.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Bestco\Bestco\obj\Debug\Bestco.pdb
+C:\Projects\Bestco\Bestco\bin\ApplicationInsights.config
+C:\Projects\Bestco\Bestco\bin\roslyn\csc.exe
+C:\Projects\Bestco\Bestco\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\Bestco\Bestco\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\Bestco\Bestco\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\Bestco\Bestco\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\Bestco\Bestco\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\Bestco\Bestco\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\Bestco\Bestco\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\Bestco\Bestco\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\Bestco\Bestco\bin\roslyn\vbc.exe
+C:\Projects\Bestco\Bestco\bin\roslyn\VBCSCompiler.exe
+C:\Projects\Bestco\Bestco\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\Bestco\Bestco\bin\Bestco.dll.config
+C:\Projects\Bestco\Bestco\bin\Bestco.dll
+C:\Projects\Bestco\Bestco\bin\Bestco.pdb
+C:\Projects\Bestco\Bestco\obj\Debug\Bestco.dll
+C:\Projects\Bestco\Bestco\obj\Debug\Bestco.pdb
+C:\Projects\TimeTracking\BestCo\bin\ApplicationInsights.config
+C:\Projects\TimeTracking\BestCo\bin\roslyn\csc.exe
+C:\Projects\TimeTracking\BestCo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\TimeTracking\BestCo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\TimeTracking\BestCo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\TimeTracking\BestCo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\TimeTracking\BestCo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\TimeTracking\BestCo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\TimeTracking\BestCo\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\TimeTracking\BestCo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\TimeTracking\BestCo\bin\roslyn\vbc.exe
+C:\Projects\TimeTracking\BestCo\bin\roslyn\VBCSCompiler.exe
+C:\Projects\TimeTracking\BestCo\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\TimeTracking\BestCo\bin\Bestco.dll.config
+C:\Projects\TimeTracking\BestCo\bin\Bestco.dll
+C:\Projects\TimeTracking\BestCo\bin\Bestco.pdb
+C:\Projects\TimeTracking\BestCo\obj\Debug\Bestco.csprojResolveAssemblyReference.cache
+C:\Projects\TimeTracking\BestCo\obj\Debug\Bestco.dll
+C:\Projects\TimeTracking\BestCo\obj\Debug\Bestco.pdb

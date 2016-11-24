@@ -1,0 +1,324 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Dashboard
+        <small>Control panel</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+    </ol>
+</section>
+
+<!-- Main content -->
+<section class="content">
+
+    <!-- Small boxes (Stat box) -->
+    <div class="row hidden">
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-aqua">
+                <div class="inner">
+                    <h3>150</h3>
+                    <p>New Orders</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-bag"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div><!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-green">
+                <div class="inner">
+                    <h3>53<sup style="font-size: 20px">%</sup></h3>
+                    <p>Bounce Rate</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-stats-bars"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div><!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-yellow">
+                <div class="inner">
+                    <h3>44</h3>
+                    <p>User Registrations</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-person-add"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div><!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-red">
+                <div class="inner">
+                    <h3>65</h3>
+                    <p>Unique Visitors</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-pie-graph"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div><!-- ./col -->
+    </div><!-- /.row -->
+
+    <div class="row">
+        <div class="col-md-6">
+            <!-- TABLE: LATEST ORDERS -->
+            <div class="box box-info">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Action Items</h3>
+                    <div class="box-tools pull-right">
+                        <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                        <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                    <div class="table-responsive">
+                        <table class="table no-margin">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Item</th>
+                                    <th>Assigned to</th>
+                                    <th>Status</th>
+                                    <th>Target Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="pages/examples/invoice.html">I142</a></td>
+                                    <td>Packaging investigation reduction</td>
+                                    <td>Lucas, Tim, David</td>
+                                    <td><span class="label label-success">On Schedule</span></td>
+                                    <td>4/7/2016</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!-- /.table-responsive -->
+                </div><!-- /.box-body -->
+                <div class="box-footer clearfix">
+                    <a href="javascript::;" class="btn btn-sm btn-info btn-flat pull-left">Add New Item</a>
+                    <a href="javascript::;" class="btn btn-sm btn-default btn-flat pull-right">View All Items</a>
+                </div><!-- /.box-footer -->
+            </div><!-- /.box -->
+        </div><!-- /.col -->
+
+        <div class="col-md-6">
+            <!-- TABLE: LATEST ORDERS -->
+            <div class="box box-info">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Project List</h3>
+                    <div class="box-tools pull-right">
+                        <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                        <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                    <div class="table-responsive">
+                        <table class="table no-margin">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Assigned to</th>
+                                    <th>Status</th>
+                                    <th>Target Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>SN Bagger I2/OG + Training</td>
+                                    <td>Kyle, Lucas</td>
+                                    <td><span class="label label-warning">Behind 3 days</span></td>
+                                    <td>Thur 4/7/2016</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!-- /.table-responsive -->
+                </div><!-- /.box-body -->
+                <div class="box-footer clearfix">
+                    <a href="javascript::;" class="btn btn-sm btn-info btn-flat pull-left">Add New Item</a>
+                    <a href="javascript::;" class="btn btn-sm btn-default btn-flat pull-right">View All Items</a>
+                </div><!-- /.box-footer -->
+            </div><!-- /.box -->
+        </div><!-- /.col -->
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Monthly Recap Report</h3>
+                    <div class="box-tools pull-right">
+                        <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                        <div class="btn-group">
+                            <button class="btn btn-box-tool dropdown-toggle" data-toggle="dropdown"><i class="fa fa-wrench"></i></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="text-center">
+                                <strong>Bagging Orders - April 2016</strong>
+                            </p>
+                            <div class="chart">
+                                <!-- Sales Chart Canvas -->
+                                <canvas id="salesChart" style="height: 180px;"></canvas>
+                            </div><!-- /.chart-responsive -->
+                        </div><!-- /.col -->
+                        <div class="col-md-4">
+                            <p class="text-center">
+                                <strong>Bagging Performance Goals</strong>
+                            </p>
+                            <div class="progress-group">
+                                <span class="progress-text">Hours of Operations</span>
+                                <span class="progress-number"><b>160</b>/200</span>
+                                <div class="progress sm">
+                                    <div class="progress-bar progress-bar-aqua" style="width: 80%"></div>
+                                </div>
+                            </div><!-- /.progress-group -->
+                            <div class="progress-group">
+                                <span class="progress-text">Completed Orders</span>
+                                <span class="progress-number"><b>310</b>/400</span>
+                                <div class="progress sm">
+                                    <div class="progress-bar progress-bar-red" style="width: 80%"></div>
+                                </div>
+                            </div><!-- /.progress-group -->
+                            <div class="progress-group">
+                                <span class="progress-text">Change Overs</span>
+                                <span class="progress-number"><b>480</b>/800</span>
+                                <div class="progress sm">
+                                    <div class="progress-bar progress-bar-green" style="width: 80%"></div>
+                                </div>
+                            </div><!-- /.progress-group -->
+                            <div class="progress-group">
+                                <span class="progress-text">OEE</span>
+                                <span class="progress-number"><b>250</b>/500</span>
+                                <div class="progress sm">
+                                    <div class="progress-bar progress-bar-yellow" style="width: 80%"></div>
+                                </div>
+                            </div><!-- /.progress-group -->
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- ./box-body -->
+                <div class="box-footer">
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="description-block border-right">
+                                <span class="description-percentage text-green"><i class="fa fa-caret-up"></i> 17%</span>
+                                <h5 class="description-header">$35,210.43</h5>
+                                <span class="description-text">TOTAL REVENUE</span>
+                            </div><!-- /.description-block -->
+                        </div><!-- /.col -->
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="description-block border-right">
+                                <span class="description-percentage text-yellow"><i class="fa fa-caret-left"></i> 0%</span>
+                                <h5 class="description-header">$10,390.90</h5>
+                                <span class="description-text">TOTAL COST</span>
+                            </div><!-- /.description-block -->
+                        </div><!-- /.col -->
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="description-block border-right">
+                                <span class="description-percentage text-green"><i class="fa fa-caret-up"></i> 20%</span>
+                                <h5 class="description-header">$24,813.53</h5>
+                                <span class="description-text">TOTAL PROFIT</span>
+                            </div><!-- /.description-block -->
+                        </div><!-- /.col -->
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="description-block">
+                                <span class="description-percentage text-red"><i class="fa fa-caret-down"></i> 18%</span>
+                                <h5 class="description-header">1200</h5>
+                                <span class="description-text">GOAL COMPLETIONS</span>
+                            </div><!-- /.description-block -->
+                        </div>
+                    </div><!-- /.row -->
+                </div><!-- /.box-footer -->
+            </div><!-- /.box -->
+        </div><!-- /.col -->
+    </div><!-- /.row -->
+
+    <div class="row">
+        <div class="col-md-12">
+            <!-- TABLE: LATEST ORDERS -->
+            <div class="box box-info">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Latest Orders</h3>
+                    <div class="box-tools pull-right">
+                        <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                        <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                    <div class="table-responsive">
+                        <table class="table no-margin">
+                            <thead>
+                                <tr>
+                                    <th>Order ID</th>
+                                    <th>Item</th>
+                                    <th>Status</th>
+                                    <th>Order QTY / Number Produced</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="pages/examples/invoice.html">ORD7652</a></td>
+                                    <td>86532 - Equate Vit C Drop 9/80ct</td>
+                                    <td><span class="label label-success">Shipped</span></td>
+                                    <td><div class="sparkbar" data-color="#00a65a" data-height="20">77.0 / 77.0</div></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="pages/examples/invoice.html">OR1848</a></td>
+                                    <td>57323 - RA SF MentholCST 24/70ct</td>
+                                    <td><span class="label label-warning">Pending</span></td>
+                                    <td><div class="sparkbar" data-color="#f39c12" data-height="20">44.6/0</div></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="pages/examples/invoice.html">OR7429</a></td>
+                                    <td>57721 - RA HnyLmnCST 24/80ct</td>
+                                    <td><span class="label label-danger">Quarantine</span></td>
+                                    <td><div class="sparkbar" data-color="#f56954" data-height="20">35.6/0</div></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="pages/examples/invoice.html">OR7429</a></td>
+                                    <td>88121 - Harmon HnyLmnCST 12/80ct</td>
+                                    <td><span class="label label-info">Staged</span></td>
+                                    <td><div class="sparkbar" data-color="#00c0ef" data-height="20">65.0/0</div></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="pages/examples/invoice.html">OR1848</a></td>
+                                    <td>74321 - FD HnyLmnCST 6/90ct</td>
+                                    <td><span class="label label-info">Staged</span></td>
+                                    <td><div class="sparkbar" data-color="#f39c12" data-height="20">55.0/0</div></td>
+                                </tr>
+                              
+                            </tbody>
+                        </table>
+                    </div><!-- /.table-responsive -->
+                </div><!-- /.box-body -->
+                <div class="box-footer clearfix">
+                    <a href="javascript::;" class="btn btn-sm btn-info btn-flat pull-left">Place New Order</a>
+                    <a href="javascript::;" class="btn btn-sm btn-default btn-flat pull-right">View All Orders</a>
+                </div><!-- /.box-footer -->
+            </div><!-- /.box -->
+        </div><!-- /.col -->
+    </div>
+</section><!-- /.content -->
