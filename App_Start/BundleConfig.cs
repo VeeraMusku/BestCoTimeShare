@@ -28,7 +28,7 @@ namespace Bestco
                 "~/Assets/js/plugins/datepicker/bootstrap-datepicker.js",
                 "~/Assets/js/plugins/validator/validator.js",
                 "~/Assets/js/plugins/chartjs/Chart.js",
-                "~/Assets/js/app.js",
+               "~/Assets/js/app.js",
                 "~/Assets/js/demo.js",
                 "~/Assets/js/respond.js"
             ));

@@ -1,0 +1,185 @@
+﻿@{
+    ViewBag.Title = "LineStatus";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Line Status
+        
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Line Status</li>
+    </ol>
+</section>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.1.min.js"></script>
+<script type="text/javascript">
+        $(function () {
+            $("#ShiftRight,#ShiftLeft").click(function (event) {
+                var ID = $(event.target).attr("ID");
+                var ChooseFrom = ID == "ShiftRight" ? "#ChooseLeft" : "#ChooseRight";
+                var moveTo = ID == "ShiftRight" ? "#ChooseRight" : "#ChooseLeft";
+
+                var SelectData = $(ChooseFrom + " :selected").toArray();
+                $(moveTo).append(SelectData);
+                SelectData.remove;
+            });
+        });
+</script>
+<!-- Main content -->
+<section class="content">
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="box">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Set Line Status</h3>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+
+                    <form class="form-horizontal" id="finishedLotForm" role="form">
+                        <fieldset>
+
+                           
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="line">Select Line</label>
+                                <div class="col-md-8">
+                                    <select id="line" name="line" class="form-control" required>
+                                        <option> Line 1   </option>
+                                        <option> Line 2   </option>
+                                        <option> Line 3   </option>
+                                        <option> Line 4   </option>                                     
+                                    </select>
+                                    <span class="help-block with-errors"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="line">Number of WorkCenter(S) </label>
+                                <div class="col-md-8">
+                                    <select id="workcenters" name="workcenters" class="form-control" required>
+                                        <option>  1   </option>
+                                        <option>  2   </option>
+                                        <option>  3   </option>
+                                        
+                                    </select>
+                                    <span class="help-block with-errors"></span>
+                                </div>
+                            </div>
+
+                            <!-- Select Basic -->
+                            
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="supervisorId">Item Number</label>
+                                <div class="col-md-8">
+                                    <input id="itemNumber" name="itemNumber" placeholder="Scan or Enter Item Number" class="form-control" type="text" required>
+                                    <span class="help-block with-errors"></span>
+                                </div>
+                            </div>
+
+                            <!-- Text input-->
+                            <div class="form-group js-master-cook-lot">
+                                <label class="col-md-4 control-label" for="masterCookLot">Lot Number</label>
+                                <div class="col-md-8">
+                                    <input id="lotNumber" name="lotNumber" placeholder="Scan or Enter Lot Number" class="form-control" type="text" required> 
+                                    <span class="help-block with-errors"></span>                                   
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="line">WorkCenter Status </label>
+                                <div class="col-md-8">
+                                    <select id="workcenterStatus" name="workcenterStatus" class="form-control" required>
+                                        <option>  Complete  </option>
+                                        <option>  Maintenance-Down   </option>
+                                        <option>  Shift End  </option>
+                                        <option>  Active  </option>
+
+                                    </select>
+                                    <span class="help-block with-errors"></span>
+                                </div>
+                            </div>
+
+                            <hr style="border: 2px solid #e5e5e5;" />
+                            <!-- Display errors here if found. -->
+                            <div class="col-md-8 col-lg-offset-4">
+                                <div class="js-errors-result"></div>
+                            </div>
+
+                            <div class="box-header with-border">
+                                <h3 class="box-title">Add Resources</h3>
+                            </div><!-- /.box-header -->
+
+                            <div class="js-row-repeats">
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label" for="line">Filter Users </label>
+                                    <div class="col-md-8">
+                                        <select id="Users" name="Users" class="form-control" required>
+                                            <option>   All Unassigned   </option>
+                                            <option>  All Badgedin  </option>                                           
+
+                                        </select>
+                                        <span class="help-block with-errors"></span>
+                                    </div>
+                                </div>
+
+                                <!-- Text input-->
+                                <div class="form-group js-cook-lot">
+                                    <table >
+                                        <tr>
+                                            <td>
+                                                <div class="col-md-4">
+                                                    <select id="ChooseLeft" multiple="multiple" style="width:300px;height:150px">
+                                                        <option value="1">User 1</option>
+                                                        <option value="2">User 2</option>
+                                                        <option value="3">User 3</option>
+                                                        <option value="4">User 4</option>
+                                                        <option value="5">User 5</option>
+                                                        <option value="5">User 6</option>
+                                                        <option value="5">User 7</option>
+                                                        <option value="5">User 8</option>
+                                                        <option value="5">User 9</option>
+                                                    </select>
+                                                    </div>
+</td>
+                                       
+                                            <td>
+                                                <div class="col-md-6">
+                                                    <input id="ShiftRight" type="button" value="Add(>>)" style="width:100px" /> <br /><br />
+                                                    <input id="ShiftLeft" type="button" value="Remove(<<)" style="width:100px" />
+                                                    </div>
+</td>
+                                        
+                                            <td>
+                                                <div class="col-md-8">
+                                                    <select id="ChooseRight" multiple="multiple" style="width:300px;height:150px"></select>
+                                                    </div>
+</td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                              </div> 
+
+                        </fieldset>
+                    </form>
+
+                </div><!-- /.box-body -->
+                <div class="box-footer clearfix">
+                    <div class="form-group pull-right">
+                        <button type="submit" class="btn btn-primary js-finishedLotForm-submit">Submit Line</button>
+                    </div>
+                </div>
+            </div><!-- /.box -->
+        </div><!-- end col-md-6 -->
+
+    </div><!-- end .row -->
+
+</section><!-- /.content -->
+<!-- Multipurpose Modal -->
+
