@@ -6,17 +6,12 @@ using System.Web.Mvc;
 
 namespace Bestco.Controllers
 {
-    public class LineController : Controller
+    public class BadgeInController : Controller
     {
-        // GET: Line
+        // GET: BadgeIn
         public ActionResult Index()
         {
-            return View("LineStatus");
-        }
-
-        public ActionResult Summary()
-        {
-            return View("LineStatusSummary");
+            return View("UserBadgeIn");
         }
     }
 }

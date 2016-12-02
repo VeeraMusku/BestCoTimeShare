@@ -1,0 +1,83 @@
+﻿@{
+    ViewBag.Title = "LineStatusSummary";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Line Status
+
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Line Status Summary</li>
+    </ol>
+</section>
+<section class="content">
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="box">
+                <div class="box-header with-border">
+                    <h3 class="box-title"> Line Status Summary</h3>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+
+                    <form class="form-horizontal" id="finishedLotForm" role="form">
+                        <fieldset>
+
+
+                            <div class="form-group">
+                                <div  class="table-responsive col-md-10">
+                                    <table class="table table-striped ">
+                                        <tr>
+                                            <th>Line</th>
+                                            <th>Current Status</th>
+                                            <th>Current Status Start Time</th>
+                                            <th colspan="2"  style="text-align:center">Actions</th>
+                                        </tr>
+                                       <tr>
+                                           <td>1</td>
+                                           <td>Available</td>
+                                           <td>@DateTime.Now.AddDays(-1)</td>
+                                           <td><input type="button" value="Activate" style="width:140px;" onclick="@("window.location.href='" + @Url.Action("Index", "Line") + "'");" /></td>
+                                             <td>  <input type="button" value="Maintenance Start" style="width:140px;" onclick="@("window.location.href='" + @Url.Action("Index", "Line") + "'");" />
+                                           </td>
+                                       </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Active</td>
+                                            <td>@DateTime.Now.AddHours(-1)</td>
+                                            <td>
+                                               <input type="button" value="Complete" style="width:140px;" onclick="@("window.location.href='" + @Url.Action("Index", "Line") + "'");" /><br /><br />
+                                                <input type="button" value="Maintenance Start" style="width:140px;" onclick="@("window.location.href='" + @Url.Action("Index", "Line") + "'");" /></td>
+                                                <td><input type="button" value="Shift End"  style="width:140px;" onclick="@("window.location.href='" + @Url.Action("Index", "Line") + "'");" /><br/><br />
+                                                <input type="button" value="Add/Remove Users" style="width:140px;" onclick="@("window.location.href='" + @Url.Action("Index", "Line") + "'");" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Maintenance Start</td>
+                                            <td>@DateTime.Now.AddHours(-2)</td>
+                                            <td colspan="2">
+                                                
+                                                <input type="button" value="Maintenance End" style="width:140px;" onclick="@("window.location.href='" + @Url.Action("Index", "Line") + "'");" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                           
+                        </fieldset>
+                    </form>
+
+                </div><!-- /.box-body -->
+               
+            </div><!-- /.box -->
+        </div><!-- end col-md-6 -->
+
+    </div><!-- end .row -->
+
+</section>
